@@ -1,0 +1,95 @@
+body {
+    margin: 0px auto;
+    background: #FAFAFA;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+header {
+    background: #e0e0e0;
+    padding: 20px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+
+h1 {
+    color: #43276e;
+    justify-content: center;
+
+}
+
+legend {
+    font-weight: 600;
+    font-size: 27px;
+    margin: 15px;
+    color: black;
+}
+
+button {
+    padding: 8px 30px;
+    margin: 10px;
+    background: #43276e;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+section {
+    flex-wrap: wrap;
+    margin: 0px auto 90px;
+    border-spacing: 10px 5px;
+    display: flex;
+    font-weight: 300;
+    justify-content: center;
+    line-height: 22px;
+}
+
+article {
+    height: 100%;
+    width: 326px;
+    margin: 20px;
+    background: white;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 0 8px 6px -6px gray;
+}
+
+img {
+    width: 100%;
+}
+
+h2 {
+    font-weight: 600;
+    font-size: 27px;
+    margin: 15px;
+    color: black;
+}
+
+p {
+    font-weight: 200;
+    margin: 0px;
+    color: black;
+}
+
+
+
+input {
+    border: 2px solid transparent;
+    border-radius: 3px;
+    font-size: 16px;
+    font-weight: 200;
+    padding: 5px;
+    width: 250px;
+    transition: border .5s;
+}
+
+input:focus {
+    border: 2px solid #3498DB;
+    box-shadow: none;
+}
