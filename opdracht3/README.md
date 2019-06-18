@@ -16,10 +16,10 @@ De JSON data is ook los, per film of genre of actors te gebruiken. Check die [hi
 Dit is een voorbeeld van het laden van de film data:
 [Code demo](https://koopreynders.github.io/frontendvoordesigners/opdracht3/v1/)
 
-
+# Intro
 Voor mijn eindopdracht ben ik samen met Frederique Niemer te werken gegaan. We hebben samen gekeken wat we wilde gaan doen voor onze eindopdracht. We hebben gekozen voor een open scource database voor films. Via een api key kunnen we alle films op halen die er bestaan. 
 
-Versie 1 
+# Versie 1 
 Voor mijn eerste versie ben ik samen met Niels en Frederique gaan zitten. Niels heeft ons een snelle cursus over JSON gegeven. Doordit kregen we een vele beter idee wat JSON inhoud. Dat was voor ons in het begin verwarrend. We hebben via internet de database voor films gevonden. Op de site van omdbapi.com. Daar leggen ze allemaal uit wat het inhoud. 
 
 We hebben een zoekbalk gemaakt, waar je kan zoeken op films en jaartallen. Als je een film intypt en dan zoekt, krijg je 10 films te zien die die naam heeft. We hebben hem zo gemaakt dat je een filmposter, titel, type en jaartal kan zien. 
