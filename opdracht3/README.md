@@ -25,3 +25,5 @@ Voor mijn eerste versie ben ik samen met Niels en Frederique gaan zitten. Niels 
 We hebben een zoekbalk gemaakt, waar je kan zoeken op films en jaartallen. Als je een film intypt en dan zoekt, krijg je 10 films te zien die die naam heeft. We hebben hem zo gemaakt dat je een filmposter, titel, type en jaartal kan zien. 
 
 Bij deze versie kreeg ik nog niet voor elkaar om de films naast elkaar te krijgen. Dat is mijn volgende stap. 
+De eerste versie (https://github.com/KoopReynders/frontendvoordesigners/tree/master/opdracht3/json).
+
