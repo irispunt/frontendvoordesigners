@@ -7,14 +7,22 @@
     <title>Our superheroes</title>
 
     <link href="https://fonts.googleapis.com/css?family=Faster+One" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
+      <link href="css/font:css/all.css" rel="stylesheet"> <!--load all styles -->
+
 </head>
 
 <body>
-
-    <header>
+<header>
+    <i class="fas fa-film"></i>
+    <h1>Omdipapi.com</h1>
+    
+    
+    </header>
+    
+    <div>
         <form class="well form-search" id="search-by-title-form">
-            <h1>Zoek een film</h1>
+            <h2>Zoek een film</h2>
             <div>
                 <label class="control-label" for="t">Titelfilm</label>
                 <input type="text" id="t" name="t" class="input-small">
@@ -22,13 +30,13 @@
                 <label class="control-label" for="y">Jaar</label>
                 <input type="text" id="y" name="y" class="input-small" style="width: 100px;">
 
-                <button id="search-by-title-button" type="button" class="btn-sm btn-primary">Search</button>
+                <button id="search-by-title-button" type="button" class="btn-sm btn-primary">Zoeken</button>
 
                 <button id="search-by-title-reset" type="reset" class="btn-sm">Reset</button> </div>
 
         </form>
 
-    </header>
+    </div>
     <section>
 
 
@@ -50,6 +58,7 @@
         });
 
         function zoeken() {
+    
             var tietel = document.querySelector("#t").value;
             var jaar = document.querySelector("#y").value;
             //console.log('www.omdbapi.com/?apikey=8f5b4526&t=' + tietel);
@@ -68,6 +77,7 @@
                 //nu kun je iets doen zoals de json echo'en
                 //section.textContent = JSON.stringify(data);
             });
+            reset();
 
         }
 
@@ -83,9 +93,14 @@
                 var article = document.createElement('article');
 
                 var filmposter = document.createElement('img');
-                filmposter.setAttribute("src", films.Search[i].Poster);
+                if (films.Search[i].Poster === "N/A") {
+                    filmposter.setAttribute("src", "hier wat anders");
+                } else {
+                    filmposter.setAttribute("src", films.Search[i].Poster);    
+                }
+                
 
-                var filmtitel = document.createElement('h2');
+                var filmtitel = document.createElement('h3');
                 filmtitel.textContent = films.Search[i].Title;
 
                 var filmtype = document.createElement('p');
@@ -94,12 +109,17 @@
                 var filmjaar = document.createElement('p');
                 filmjaar.textContent = films.Search[i].Year;
 
+                var filmimdb = document.createElement('a');
+                filmimdb.setAttribute("href", "https://www.imdb.com/title/" + films.Search[i].imdbID);
+                filmimdb.setAttribute("target", "_blank")
+                filmimdb.textContent = ("Meer Info");
 
 
                 article.appendChild(filmposter);
                 article.appendChild(filmtitel);
                 article.appendChild(filmtype);
                 article.appendChild(filmjaar);
+                article.appendChild(filmimdb);
                 section.appendChild(article);
             }
         }
