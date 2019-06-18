@@ -25,5 +25,13 @@ Voor mijn eerste versie ben ik samen met Niels en Frederique gaan zitten. Niels 
 We hebben een zoekbalk gemaakt, waar je kan zoeken op films en jaartallen. Als je een film intypt en dan zoekt, krijg je 10 films te zien die die naam heeft. We hebben hem zo gemaakt dat je een filmposter, titel, type en jaartal kan zien. 
 
 Bij deze versie kreeg ik nog niet voor elkaar om de films naast elkaar te krijgen. Dat is mijn volgende stap. 
-De eerste versie [versie 1](https://irispunt.github.io/frontendvoordesigners/opdracht3/v1/index.html.
+De eerste versie [versie 1](https://irispunt.github.io/frontendvoordesigners/opdracht3/v1/index.html.)
+
+# Versie 2
+Bij mijn tweede versie ben ik langs Vasilis geweest. Ik had probleem dat ze onder elkaar komen in 1 section. Hij heeft mij uitgelegd dat ik articles moet maken. En dat moet ik via js. Ik had ze nu in sections gezet. Dan plaatst hij de content allemaal onderelkaar. Doordat ik heb aangegeven dat ze in articles moeten en de articles in sections moeten, kon ik ze naast elkaar krijgen. 
+
+De zoek knop werkte alleen nog met een klik. Dit heb ik aangepast met een keyboard toe te voegen. Zodat je nu met tab, tab en dan enter kan zoeken. 
+
+Bij mijn tweede versie was ik al heel erg te vrede. Ik ga in mijn v3 de kleine detials aanpassen en testen. De twee versie
+[versie 2](https://irispunt.github.io/frontendvoordesigners/opdracht3/v2/index.html)
 
