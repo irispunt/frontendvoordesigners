@@ -29,7 +29,7 @@ Ik heb in mijn derde versie een link toe gevoegd. Ze snapte mijn concept en ze m
 
 
 # Testen 
-[IMG_4543](https://user-images.githubusercontent.com/45559619/59748311-26236f80-927b-11e9-94f9-45495e271230.JPG)
+![IMG_4543](https://user-images.githubusercontent.com/45559619/59748311-26236f80-927b-11e9-94f9-45495e271230.JPG)
 Ik heb met meerder personen getest. Op de foto zie je Lisa. Die heeft hem getest met mijn versie 2. Ik heb met vrienden en buren  getest. Ze vonden de reset knop wel ingewikkeld. Ze snappen hem niet. Ik weet niet hoe ik dit moet aanpassen.
 
 # Principle
